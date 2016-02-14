@@ -12,8 +12,8 @@ body {
 body {
   font-family: 'Electrolize', sans-serif;
   font-style : normal;
-  /*color: #d75f5f;*/
-  color: #8e7766;
+  color: #d75f5f;
+  /*color: #8e7766;*/
   margin : 5px;
 }
 input, textarea, select {
@@ -52,20 +52,3 @@ input#search {
   font-size: 18px;
 }
 div#time { font-size: 72px; }
-div.history {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  width: 45%;
-  display: none;
-}
-input#historyText {width: 100%;}
-div.notes { 
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px;
-  width: 35%;
-}
-textarea#noteText {height: 125px; width: 100%;}
